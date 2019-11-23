@@ -1,0 +1,14 @@
+AllCops:
+  # Exclude generated files
+  Exclude:
+    - 'vendor/**/*'
+    - 'db/schema.rb'
+    - 'bin//**/*'
+    - 'node_modules//**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 80
+  IgnoredPatterns: ['(\A|\s)#'] # comments
