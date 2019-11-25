@@ -19,7 +19,7 @@ class ScanImages
         parse_and_set
         @tmp_file&.close
       end
-      TweetData.insert_all!(@tweet_data)
+      TweetData.insert_all(@tweet_data) if @tweet_data.present?
     ensure
       File.unlink(@tmp_file) if @tmp_file
     end

@@ -21,6 +21,8 @@ gem 'rtesseract'
 
 gem 'parslet'
 
+gem 'sucker_punch'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'vcr'
