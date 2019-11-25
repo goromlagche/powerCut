@@ -10,7 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_11_23_113157) do
+ActiveRecord::Schema.define(version: 2019_11_24_050749) do
+
+  create_table "locations", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+    t.bigint "tweet_data_id"
+    t.datetime "restore_at"
+    t.string "address", null: false
+    t.json "geo_json"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["restore_at"], name: "index_locations_on_restore_at"
+    t.index ["tweet_data_id"], name: "index_locations_on_tweet_data_id"
+  end
 
   create_table "tweet_data", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
     t.string "image_id", null: false
@@ -21,4 +32,5 @@ ActiveRecord::Schema.define(version: 2019_11_23_113157) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "locations", "tweet_data", column: "tweet_data_id"
 end

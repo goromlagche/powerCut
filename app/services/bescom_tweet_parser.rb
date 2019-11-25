@@ -2,7 +2,7 @@ require 'parslet'
 
 class BescomTweetParser < Parslet::Parser
   root(:bescom)
-  rule(:restore_prefix) { str('restored @') }
+  rule(:restore_prefix) { str('@') }
   rule(:affected_areas_prefix) { str('Affected areas') }
   rule(:affected_areas_postfix) { str('and') }
 
@@ -10,7 +10,7 @@ class BescomTweetParser < Parslet::Parser
     (restore_prefix.absent? >> any).repeat >>
       restore_prefix >>
       space.maybe >>
-      (hrs >> colon >> hrs).as(:restore_at)
+      (hrs >> colon.maybe >> dot.maybe >> hrs).as(:restore_at)
   end
 
   rule(:affected_areas) do
