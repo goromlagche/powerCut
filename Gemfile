@@ -13,8 +13,18 @@ gem 'sqlite3', '~> 1.4'
 gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 4.0'
 
+gem 'bootsnap', '>= 1.4.2', require: false
+
+gem 'mysql2'
+
+gem 'rtesseract'
+
+gem 'parslet'
+
 group :development, :test do
   gem 'rspec-rails'
+  gem 'vcr'
+  gem 'webmock', require: nil
 end
 
 group :development do

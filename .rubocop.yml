@@ -12,3 +12,12 @@ Style/Documentation:
 Metrics/LineLength:
   Max: 80
   IgnoredPatterns: ['(\A|\s)#'] # comments
+
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
