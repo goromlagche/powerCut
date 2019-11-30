@@ -3,8 +3,11 @@ require 'parslet'
 class BescomTweetParser < Parslet::Parser
   root(:bescom)
   rule(:restore_prefix) { str('@') }
-  rule(:affected_areas_prefix) { str('Affected areas') }
-  rule(:affected_areas_postfix) { str('and') }
+  rule(:affected_areas_prefix) do
+    (str('areas') | str('Areas')) >> newline.maybe >>
+      colon.maybe >>
+      newline.maybe
+  end
 
   rule(:restore) do
     (restore_prefix.absent? >> any).repeat >>
@@ -15,15 +18,14 @@ class BescomTweetParser < Parslet::Parser
 
   rule(:affected_areas) do
     (affected_areas_prefix.absent? >> any).repeat >>
-      colon.maybe >>
       space.maybe >>
       quote.maybe >>
       affected_areas_prefix >>
-      (newline.absent? >> any).repeat.as(:affected_area)
+      (dot.maybe >> newline.absent? >> any).repeat.as(:affected_area)
   end
 
   rule(:bescom) do
-    restore >> affected_areas >> any.repeat
+    restore >> affected_areas.maybe >> any.repeat
   end
 
   rule(:hrs) { match('[0-9]').repeat }

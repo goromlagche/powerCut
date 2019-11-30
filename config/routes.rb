@@ -2,5 +2,5 @@
 
 Rails.application.routes.draw do
   root to: 'dashboard#index'
-  resources :geo_json, only: %i[index]
+  resources :locations, only: %i[index]
 end
