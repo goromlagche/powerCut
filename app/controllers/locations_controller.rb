@@ -7,7 +7,7 @@ class LocationsController < ApplicationController
         render json: { location_data:
                          Location
                            .lat_lng
-                           .where('restore_at > ?', 6.hours.ago)
+                           .where(restore_at: 6.hours.ago..)
                            .as_json },
                status: :ok
       end
