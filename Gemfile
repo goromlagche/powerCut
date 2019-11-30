@@ -21,7 +21,15 @@ gem 'rtesseract'
 
 gem 'parslet'
 
+gem 'twitter'
+
 gem 'sucker_punch'
+
+gem 'geocoder'
+
+gem 'rufus-scheduler'
+
+gem 'lograge'
 
 group :development, :test do
   gem 'rspec-rails'

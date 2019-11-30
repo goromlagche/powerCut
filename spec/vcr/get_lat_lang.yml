@@ -1,0 +1,870 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=Kannamangala%20palya,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:52:49 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOjI1NjI4NjczLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6Im5vZGUiLCJvc21faWQiOjI0NzEyMzQxNjcsImJvdW5kaW5nYm94IjpbIjEzLjIwMTU2NjQiLCIxMy4yNDE1NjY0IiwiNzcuNjQ5NzgwMyIsIjc3LjY4OTc4MDMiXSwibGF0IjoiMTMuMjIxNTY2NCIsImxvbiI6Ijc3LjY2OTc4MDMiLCJkaXNwbGF5X25hbWUiOiJLYW5uYW1hbmdhbGEgUGFseWEsIERldmFuYWhhbGxpIHRhbHVrLCBCYW5nYWxvcmUgUnVyYWwsIEthcm5hdGFrYSwgNTYyMTEwLCBJbmRpYSIsImNsYXNzIjoicGxhY2UiLCJ0eXBlIjoidmlsbGFnZSIsImltcG9ydGFuY2UiOjAuNjk1LCJpY29uIjoiaHR0cHM6Ly9ub21pbmF0aW0ub3BlbnN0cmVldG1hcC5vcmcvaW1hZ2VzL21hcGljb25zL3BvaV9wbGFjZV92aWxsYWdlLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJ2aWxsYWdlIjoiS2FubmFtYW5nYWxhIFBhbHlhIiwiY291bnR5IjoiRGV2YW5haGFsbGkgdGFsdWsiLCJzdGF0ZV9kaXN0cmljdCI6IkJhbmdhbG9yZSBSdXJhbCIsInN0YXRlIjoiS2FybmF0YWthIiwicG9zdGNvZGUiOiI1NjIxMTAiLCJjb3VudHJ5IjoiSW5kaWEiLCJjb3VudHJ5X2NvZGUiOiJpbiJ9fV0=
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:52:49 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=Doddakannahali,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:52:49 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:52:49 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=Bommavara,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:52:50 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:52:50 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=surrounidng%20areas,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:52:51 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:52:51 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=EG%20Pura,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:52:51 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:52:52 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=Austin%20town,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:52:52 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOjQwMjU0MTksImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6Ly9vc20ub3JnL2NvcHlyaWdodCIsIm9zbV90eXBlIjoibm9kZSIsIm9zbV9pZCI6NDI5OTIxODUyLCJib3VuZGluZ2JveCI6WyIxMi45NDEyNzM2IiwiMTIuOTgxMjczNiIsIjc3LjU5NTI5MzUiLCI3Ny42MzUyOTM1Il0sImxhdCI6IjEyLjk2MTI3MzYiLCJsb24iOiI3Ny42MTUyOTM1IiwiZGlzcGxheV9uYW1lIjoiQXVzdGluIFRvd24sIEVhc3QgWm9uZSwgQmVuZ2FsdXJ1LCBCYW5nYWxvcmUgVXJiYW4sIEthcm5hdGFrYSwgLSA1NjAwOTUsIEluZGlhIiwiY2xhc3MiOiJwbGFjZSIsInR5cGUiOiJzdWJ1cmIiLCJpbXBvcnRhbmNlIjowLjg2MjQyMjIwNzAwMzIyMDksImljb24iOiJodHRwczovL25vbWluYXRpbS5vcGVuc3RyZWV0bWFwLm9yZy9pbWFnZXMvbWFwaWNvbnMvcG9pX3BsYWNlX3ZpbGxhZ2UucC4yMC5wbmciLCJhZGRyZXNzIjp7InN1YnVyYiI6IkF1c3RpbiBUb3duIiwiY2l0eV9kaXN0cmljdCI6IkVhc3QgWm9uZSIsImNpdHkiOiJCZW5nYWx1cnUiLCJjb3VudHkiOiJCYW5nYWxvcmUgVXJiYW4iLCJzdGF0ZV9kaXN0cmljdCI6IkJhbmdhbG9yZSBVcmJhbiIsInN0YXRlIjoiS2FybmF0YWthIiwicG9zdGNvZGUiOiItIDU2MDA5NSIsImNvdW50cnkiOiJJbmRpYSIsImNvdW50cnlfY29kZSI6ImluIn19LHsicGxhY2VfaWQiOjI0NjIwNTU1LCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6Im5vZGUiLCJvc21faWQiOjI0MDYwODc2NzIsImJvdW5kaW5nYm94IjpbIjEyLjk2MTQ4MzYiLCIxMi45NjE1ODM2IiwiNzcuNjE0NTI0OSIsIjc3LjYxNDYyNDkiXSwibGF0IjoiMTIuOTYxNTMzNiIsImxvbiI6Ijc3LjYxNDU3NDkiLCJkaXNwbGF5X25hbWUiOiJBdXN0aW4gVG93biwgT2xkIFJhY2UgQ291cnNlIFJvYWQsIFllbGxhZ29uZGFucGFseWEsIFNoYW50YWxhIE5hZ2FyLCBFYXN0IFpvbmUsIEJlbmdhbHVydSwgQmFuZ2Fsb3JlIFVyYmFuLCBLYXJuYXRha2EsIC0gNTYwMDk1LCBJbmRpYSIsImNsYXNzIjoiaGlnaHdheSIsInR5cGUiOiJidXNfc3RvcCIsImltcG9ydGFuY2UiOjAuNTMwOTk5OTk5OTk5OTk5OSwiaWNvbiI6Imh0dHBzOi8vbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnL2ltYWdlcy9tYXBpY29ucy90cmFuc3BvcnRfYnVzX3N0b3AyLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJidXNfc3RvcCI6IkF1c3RpbiBUb3duIiwicm9hZCI6Ik9sZCBSYWNlIENvdXJzZSBSb2FkIiwibmVpZ2hib3VyaG9vZCI6IlllbGxhZ29uZGFucGFseWEiLCJzdWJ1cmIiOiJTaGFudGFsYSBOYWdhciIsImNpdHlfZGlzdHJpY3QiOiJFYXN0IFpvbmUiLCJjaXR5IjoiQmVuZ2FsdXJ1IiwiY291bnR5IjoiQmFuZ2Fsb3JlIFVyYmFuIiwic3RhdGVfZGlzdHJpY3QiOiJCYW5nYWxvcmUgVXJiYW4iLCJzdGF0ZSI6Ikthcm5hdGFrYSIsInBvc3Rjb2RlIjoiLSA1NjAwOTUiLCJjb3VudHJ5IjoiSW5kaWEiLCJjb3VudHJ5X2NvZGUiOiJpbiJ9fV0=
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:52:52 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=VSit,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:52:53 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:52:53 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=ashok%20nagar,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:52:53 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOjQwNDczOTMsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6Ly9vc20ub3JnL2NvcHlyaWdodCIsIm9zbV90eXBlIjoibm9kZSIsIm9zbV9pZCI6NDI5OTIxODUzLCJib3VuZGluZ2JveCI6WyIxMi45NDk0MzU5IiwiMTIuOTg5NDM1OSIsIjc3LjU4OTIzMTkiLCI3Ny42MjkyMzE5Il0sImxhdCI6IjEyLjk2OTQzNTkiLCJsb24iOiI3Ny42MDkyMzE5IiwiZGlzcGxheV9uYW1lIjoiQXNob2sgTmFnYXIsIEVhc3QgWm9uZSwgQmVuZ2FsdXJ1LCBCYW5nYWxvcmUgVXJiYW4sIEthcm5hdGFrYSwgNTYwMDI1LCBJbmRpYSIsImNsYXNzIjoicGxhY2UiLCJ0eXBlIjoic3VidXJiIiwiaW1wb3J0YW5jZSI6MC43Nzk5OTk5OTk5OTk5OTk5LCJpY29uIjoiaHR0cHM6Ly9ub21pbmF0aW0ub3BlbnN0cmVldG1hcC5vcmcvaW1hZ2VzL21hcGljb25zL3BvaV9wbGFjZV92aWxsYWdlLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJzdWJ1cmIiOiJBc2hvayBOYWdhciIsImNpdHlfZGlzdHJpY3QiOiJFYXN0IFpvbmUiLCJjaXR5IjoiQmVuZ2FsdXJ1IiwiY291bnR5IjoiQmFuZ2Fsb3JlIFVyYmFuIiwic3RhdGVfZGlzdHJpY3QiOiJCYW5nYWxvcmUgVXJiYW4iLCJzdGF0ZSI6Ikthcm5hdGFrYSIsInBvc3Rjb2RlIjoiNTYwMDI1IiwiY291bnRyeSI6IkluZGlhIiwiY291bnRyeV9jb2RlIjoiaW4ifX0seyJwbGFjZV9pZCI6NTE1MDIxNjQsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6Ly9vc20ub3JnL2NvcHlyaWdodCIsIm9zbV90eXBlIjoibm9kZSIsIm9zbV9pZCI6NDAzNDEzMjg1NCwiYm91bmRpbmdib3giOlsiMTUuMzY3NTU1MiIsIjE1LjM2NzY1NTIiLCI3NS4xMzc4NzE0IiwiNzUuMTM3OTcxNCJdLCJsYXQiOiIxNS4zNjc2MDUyIiwibG9uIjoiNzUuMTM3OTIxNCIsImRpc3BsYXlfbmFtZSI6IkFzaG9rIE5hZ2FyLCBWaXNod2VzaHdhcmEgTmFnYXIsIEh1YmJhbGxpLCBIdWJiYWxsaSB0YWx1a3UsIERoYXJ3YWQgZGlzdHJpY3QsIEthcm5hdGFrYSwgNTgwMDIwLCBJbmRpYSIsImNsYXNzIjoicGxhY2UiLCJ0eXBlIjoibmVpZ2hib3VyaG9vZCIsImltcG9ydGFuY2UiOjAuNjE5OTk5OTk5OTk5OTk5OSwiYWRkcmVzcyI6eyJuZWlnaGJvdXJob29kIjoiQXNob2sgTmFnYXIiLCJzdWJ1cmIiOiJWaXNod2VzaHdhcmEgTmFnYXIiLCJjaXR5IjoiSHViYmFsbGkiLCJjb3VudHkiOiJIdWJiYWxsaSB0YWx1a3UiLCJzdGF0ZV9kaXN0cmljdCI6IkRoYXJ3YWQgZGlzdHJpY3QiLCJzdGF0ZSI6Ikthcm5hdGFrYSIsInBvc3Rjb2RlIjoiNTgwMDIwIiwiY291bnRyeSI6IkluZGlhIiwiY291bnRyeV9jb2RlIjoiaW4ifX0seyJwbGFjZV9pZCI6MjQ0MTY3MTc1LCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6Im5vZGUiLCJvc21faWQiOjM1NTM4ODU0NzgsImJvdW5kaW5nYm94IjpbIjE3LjExNjgxMDkiLCIxNy4xMTY5MTA5IiwiNzYuOTQxMjY1NSIsIjc2Ljk0MTM2NTUiXSwibGF0IjoiMTcuMTE2ODYwOSIsImxvbiI6Ijc2Ljk0MTMxNTUiLCJkaXNwbGF5X25hbWUiOiJBc2hvayBOYWdhciwgU2hhaGFiYWQsIENoaXRhcHVyYSB0YWx1a3UsIEthbGFidXJhZ2kgZGlzdHJpY3QsIEthcm5hdGFrYSwgNTg1MjI4LCBJbmRpYSIsImNsYXNzIjoicGxhY2UiLCJ0eXBlIjoibmVpZ2hib3VyaG9vZCIsImltcG9ydGFuY2UiOjAuNjE5OTk5OTk5OTk5OTk5OSwiYWRkcmVzcyI6eyJuZWlnaGJvdXJob29kIjoiQXNob2sgTmFnYXIiLCJ0b3duIjoiU2hhaGFiYWQiLCJjb3VudHkiOiJDaGl0YXB1cmEgdGFsdWt1Iiwic3RhdGVfZGlzdHJpY3QiOiJLYWxhYnVyYWdpIGRpc3RyaWN0Iiwic3RhdGUiOiJLYXJuYXRha2EiLCJwb3N0Y29kZSI6IjU4NTIyOCIsImNvdW50cnkiOiJJbmRpYSIsImNvdW50cnlfY29kZSI6ImluIn19XQ==
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:52:53 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=krishna%20nagar%20sapathagiri%20extension%20mahalalkshmi%20nagar,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:52:54 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:52:54 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=Vinobha%20Nagar,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:52:54 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOjE5OTMzNDI1NSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJyZWxhdGlvbiIsIm9zbV9pZCI6NzkwMjQ3NiwiYm91bmRpbmdib3giOlsiMTIuODM0MDEyNSIsIjEzLjE0MzY2NDkiLCI3Ny40NjAxMDI1IiwiNzcuNzg0MDUxNSJdLCJsYXQiOiIxMi45NzkxMTk4IiwibG9uIjoiNzcuNTkxMjk5NyIsImRpc3BsYXlfbmFtZSI6IkJlbmdhbHVydSwgQmFuZ2Fsb3JlIFVyYmFuLCBLYXJuYXRha2EsIEluZGlhIiwiY2xhc3MiOiJwbGFjZSIsInR5cGUiOiJjaXR5IiwiaW1wb3J0YW5jZSI6MC45Mzk0MzQ4MjM4OTc1NjQsImljb24iOiJodHRwczovL25vbWluYXRpbS5vcGVuc3RyZWV0bWFwLm9yZy9pbWFnZXMvbWFwaWNvbnMvcG9pX3BsYWNlX2NpdHkucC4yMC5wbmciLCJhZGRyZXNzIjp7ImNpdHkiOiJCZW5nYWx1cnUiLCJjb3VudHkiOiJCYW5nYWxvcmUgVXJiYW4iLCJzdGF0ZV9kaXN0cmljdCI6IkJhbmdhbG9yZSBVcmJhbiIsInN0YXRlIjoiS2FybmF0YWthIiwiY291bnRyeSI6IkluZGlhIiwiY291bnRyeV9jb2RlIjoiaW4ifX1d
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:52:55 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=Venkateshpura,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:52:55 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:52:55 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=Electronics%20City%20Dodda%20thogur,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:52:57 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:52:57 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=Niladri%20Road,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:52:57 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:52:57 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=SA,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:52:58 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOjEwOTEwMDYzMiwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJ3YXkiLCJvc21faWQiOjE0Njk5NzA3OCwiYm91bmRpbmdib3giOlsiMTMuMDE5NTQ2MiIsIjEzLjAyMDQyOTUiLCI3Ny43NjU2ODEzIiwiNzcuNzY1ODk1OSJdLCJsYXQiOiIxMy4wMTk1ODgiLCJsb24iOiI3Ny43NjU2ODEzIiwiZGlzcGxheV9uYW1lIjoiUywgQ2hhaXRoYW55YSBTYW1hcnBhbiwgU2hlZWdlaGFsbGksIEJhbmdhbG9yZSBVcmJhbiwgS2FybmF0YWthLCA1NjA2NiwgSW5kaWEiLCJjbGFzcyI6ImhpZ2h3YXkiLCJ0eXBlIjoic2VydmljZSIsImltcG9ydGFuY2UiOjAuMzk1MDAwMDAwMDAwMDAwMSwiYWRkcmVzcyI6eyJyb2FkIjoiUyIsInJlc2lkZW50aWFsIjoiQ2hhaXRoYW55YSBTYW1hcnBhbiIsInZpbGxhZ2UiOiJTaGVlZ2VoYWxsaSIsImNvdW50eSI6IkJhbmdhbG9yZSBVcmJhbiIsInN0YXRlX2Rpc3RyaWN0IjoiQmFuZ2Fsb3JlIFVyYmFuIiwic3RhdGUiOiJLYXJuYXRha2EiLCJwb3N0Y29kZSI6IjU2MDY2IiwiY291bnRyeSI6IkluZGlhIiwiY291bnRyeV9jb2RlIjoiaW4ifX0seyJwbGFjZV9pZCI6NjU3NjEwNywibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjo2NjY2MjM4OTYsImJvdW5kaW5nYm94IjpbIjEyLjQxOTE0NDEiLCIxMi40MjkxNDQxIiwiNzYuNjcyODczMiIsIjc2LjY4Mjg3MzIiXSwibGF0IjoiMTIuNDI0MTQ0MSIsImxvbiI6Ijc2LjY3Nzg3MzIiLCJkaXNwbGF5X25hbWUiOiJTaHJpcmFuZ2FwYXR0YW5hLCBSYWlsd2F5IFN0YXRpb24gUm9hZCwgU3JpcmFuZ2FwYXRuYSwgU3JpcmFuZ2FwYXR0YW5hIHRhbHVrLCBNYW5keWEgZGlzdHJpY3QsIEthcm5hdGFrYSwgNTcxNDM4LCBJbmRpYSIsImNsYXNzIjoicmFpbHdheSIsInR5cGUiOiJzdGF0aW9uIiwiaW1wb3J0YW5jZSI6MC4yMjEwMDAwMDAwMDAwMDAwMywiaWNvbiI6Imh0dHBzOi8vbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnL2ltYWdlcy9tYXBpY29ucy90cmFuc3BvcnRfdHJhaW5fc3RhdGlvbjIucC4yMC5wbmciLCJhZGRyZXNzIjp7InN0YXRpb24iOiJTaHJpcmFuZ2FwYXR0YW5hIiwicm9hZCI6IlJhaWx3YXkgU3RhdGlvbiBSb2FkIiwidG93biI6IlNyaXJhbmdhcGF0bmEiLCJjb3VudHkiOiJTcmlyYW5nYXBhdHRhbmEgdGFsdWsiLCJzdGF0ZV9kaXN0cmljdCI6Ik1hbmR5YSBkaXN0cmljdCIsInN0YXRlIjoiS2FybmF0YWthIiwicG9zdGNvZGUiOiI1NzE0MzgiLCJjb3VudHJ5IjoiSW5kaWEiLCJjb3VudHJ5X2NvZGUiOiJpbiJ9fV0=
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:52:58 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=Bairavi%20Apartment%20onlyK,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:52:58 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:52:58 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=Narayanpura,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:52:59 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:52:59 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=Thanisandra,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:53:00 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOjE5OTI5NjQzOCwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJyZWxhdGlvbiIsIm9zbV9pZCI6Nzg3MTIzMCwiYm91bmRpbmdib3giOlsiMTMuMDM4MzQ1NyIsIjEzLjA3NzA0NDEiLCI3Ny41OTc4NTUiLCI3Ny42MzgyNDk4Il0sImxhdCI6IjEzLjA1NDcxMyIsImxvbiI6Ijc3LjYzMzkyNTgiLCJkaXNwbGF5X25hbWUiOiJUaGFuaXNhbmRyYSwgWWVsYWhhbmthIFpvbmUsIEJlbmdhbHVydSwgQmFuZ2Fsb3JlIFVyYmFuLCBLYXJuYXRha2EsIEluZGlhIiwiY2xhc3MiOiJib3VuZGFyeSIsInR5cGUiOiJhZG1pbmlzdHJhdGl2ZSIsImltcG9ydGFuY2UiOjAuNjkwMDAwMDAwMDAwMDAwMSwiaWNvbiI6Imh0dHBzOi8vbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnL2ltYWdlcy9tYXBpY29ucy9wb2lfYm91bmRhcnlfYWRtaW5pc3RyYXRpdmUucC4yMC5wbmciLCJhZGRyZXNzIjp7InN1YnVyYiI6IlRoYW5pc2FuZHJhIiwiY2l0eV9kaXN0cmljdCI6IlllbGFoYW5rYSBab25lIiwiY2l0eSI6IkJlbmdhbHVydSIsImNvdW50eSI6IkJhbmdhbG9yZSBVcmJhbiIsInN0YXRlX2Rpc3RyaWN0IjoiQmFuZ2Fsb3JlIFVyYmFuIiwic3RhdGUiOiJLYXJuYXRha2EiLCJjb3VudHJ5IjoiSW5kaWEiLCJjb3VudHJ5X2NvZGUiOiJpbiJ9fV0=
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:53:00 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=Vibhuthipura%20Ramesh%20Nagar,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:53:00 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:53:00 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=Vinayaka%20Nagar,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:53:01 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOjQ1MTgxMzU3LCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6Im5vZGUiLCJvc21faWQiOjMzMDcxNTk1NDcsImJvdW5kaW5nYm94IjpbIjEyLjk1NjkxOTMiLCIxMi45NTcwMTkzIiwiNzcuNjU5MTQxOSIsIjc3LjY1OTI0MTkiXSwibGF0IjoiMTIuOTU2OTY5MyIsImxvbiI6Ijc3LjY1OTE5MTkiLCJkaXNwbGF5X25hbWUiOiJWaW5heWFrYSBOYWdhciBBIEJsb2NrLCBLb25lbmEgQWdyYWhhcmEgV2FyZCwgRWFzdCBab25lLCBCZW5nYWx1cnUsIEJhbmdhbG9yZSBVcmJhbiwgS2FybmF0YWthLCA1NjAxMDMsIEluZGlhIiwiY2xhc3MiOiJwbGFjZSIsInR5cGUiOiJuZWlnaGJvdXJob29kIiwiaW1wb3J0YW5jZSI6MC43MywiYWRkcmVzcyI6eyJuZWlnaGJvdXJob29kIjoiVmluYXlha2EgTmFnYXIgQSBCbG9jayIsInN1YnVyYiI6IktvbmVuYSBBZ3JhaGFyYSBXYXJkIiwiY2l0eV9kaXN0cmljdCI6IkVhc3QgWm9uZSIsImNpdHkiOiJCZW5nYWx1cnUiLCJjb3VudHkiOiJCYW5nYWxvcmUgVXJiYW4iLCJzdGF0ZV9kaXN0cmljdCI6IkJhbmdhbG9yZSBVcmJhbiIsInN0YXRlIjoiS2FybmF0YWthIiwicG9zdGNvZGUiOiI1NjAxMDMiLCJjb3VudHJ5IjoiSW5kaWEiLCJjb3VudHJ5X2NvZGUiOiJpbiJ9fSx7InBsYWNlX2lkIjo1MjEwMTg1LCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6Im5vZGUiLCJvc21faWQiOjU5NTE2NzAzMiwiYm91bmRpbmdib3giOlsiMTIuOTU0NDcwOSIsIjEyLjk1NDU3MDkiLCI3Ny42NTg4OTciLCI3Ny42NTg5OTciXSwibGF0IjoiMTIuOTU0NTIwOSIsImxvbiI6Ijc3LjY1ODk0NyIsImRpc3BsYXlfbmFtZSI6IlZpbmF5YWthIE5hZ2FyIEIgQmxvY2ssIEtvbmVuYSBBZ3JhaGFyYSBXYXJkLCBFYXN0IFpvbmUsIEJlbmdhbHVydSwgQmFuZ2Fsb3JlIFVyYmFuLCBLYXJuYXRha2EsIDU2MDAxNywgSW5kaWEiLCJjbGFzcyI6InBsYWNlIiwidHlwZSI6Im5laWdoYm91cmhvb2QiLCJpbXBvcnRhbmNlIjowLjczLCJhZGRyZXNzIjp7Im5laWdoYm91cmhvb2QiOiJWaW5heWFrYSBOYWdhciBCIEJsb2NrIiwic3VidXJiIjoiS29uZW5hIEFncmFoYXJhIFdhcmQiLCJjaXR5X2Rpc3RyaWN0IjoiRWFzdCBab25lIiwiY2l0eSI6IkJlbmdhbHVydSIsImNvdW50eSI6IkJhbmdhbG9yZSBVcmJhbiIsInN0YXRlX2Rpc3RyaWN0IjoiQmFuZ2Fsb3JlIFVyYmFuIiwic3RhdGUiOiJLYXJuYXRha2EiLCJwb3N0Y29kZSI6IjU2MDAxNyIsImNvdW50cnkiOiJJbmRpYSIsImNvdW50cnlfY29kZSI6ImluIn19LHsicGxhY2VfaWQiOjgyMTY3OTcwLCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6IndheSIsIm9zbV9pZCI6MjgxMTMyMjcsImJvdW5kaW5nYm94IjpbIjEyLjkyNzI4MTMiLCIxMi45Mjg2NTgzIiwiNzcuNTgwMjM5MSIsIjc3LjU4MTc1MjQiXSwibGF0IjoiMTIuOTI4MDkzNSIsImxvbiI6Ijc3LjU4MTEzNDkiLCJkaXNwbGF5X25hbWUiOiJWaW5heWFrYSBEZXZhbGF5YSBSb2FkIChEaWFnb25hbCBSb2FkKSwgSmF5YW5hZ2FyIDR0aCBCbG9jaywgU291dGggWm9uZSwgQmVuZ2FsdXJ1LCBCYW5nYWxvcmUgVXJiYW4sIEthcm5hdGFrYSwgLSA1NjAwMTEsIEluZGlhIiwiY2xhc3MiOiJoaWdod2F5IiwidHlwZSI6InRlcnRpYXJ5IiwiaW1wb3J0YW5jZSI6MC42Mjk5OTk5OTk5OTk5OTk5LCJhZGRyZXNzIjp7InJvYWQiOiJWaW5heWFrYSBEZXZhbGF5YSBSb2FkIChEaWFnb25hbCBSb2FkKSIsIm5laWdoYm91cmhvb2QiOiJKYXlhbmFnYXIgNHRoIEJsb2NrIiwic3VidXJiIjoiSmF5YW5hZ2FyIDR0aCBCbG9jayIsImNpdHlfZGlzdHJpY3QiOiJTb3V0aCBab25lIiwiY2l0eSI6IkJlbmdhbHVydSIsImNvdW50eSI6IkJhbmdhbG9yZSBVcmJhbiIsInN0YXRlX2Rpc3RyaWN0IjoiQmFuZ2Fsb3JlIFVyYmFuIiwic3RhdGUiOiJLYXJuYXRha2EiLCJwb3N0Y29kZSI6Ii0gNTYwMDExIiwiY291bnRyeSI6IkluZGlhIiwiY291bnRyeV9jb2RlIjoiaW4ifX0seyJwbGFjZV9pZCI6MTY0MjkyNDMsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6Ly9vc20ub3JnL2NvcHlyaWdodCIsIm9zbV90eXBlIjoibm9kZSIsIm9zbV9pZCI6MTQ2OTMyMDI5NiwiYm91bmRpbmdib3giOlsiMTIuOTk3NDkyNCIsIjEyLjk5NzU5MjQiLCI3Ny42MjI1MDMyIiwiNzcuNjIyNjAzMiJdLCJsYXQiOiIxMi45OTc1NDI0IiwibG9uIjoiNzcuNjIyNTUzMiIsImRpc3BsYXlfbmFtZSI6IlNyaSBWYXJhc2lkZGhpIFZpbmF5YWthIFRlbXBsZSwgQnV0dGVyZmx5IFdheSwgU2FydmFnbmEgTmFnYXIsIEVhc3QgWm9uZSwgQmVuZ2FsdXJ1LCBCYW5nYWxvcmUgVXJiYW4sIEthcm5hdGFrYSwgNTYwMDg0LCBJbmRpYSIsImNsYXNzIjoiYW1lbml0eSIsInR5cGUiOiJwbGFjZV9vZl93b3JzaGlwIiwiaW1wb3J0YW5jZSI6MC41MzA5OTk5OTk5OTk5OTk5LCJpY29uIjoiaHR0cHM6Ly9ub21pbmF0aW0ub3BlbnN0cmVldG1hcC5vcmcvaW1hZ2VzL21hcGljb25zL3BsYWNlX29mX3dvcnNoaXBfdW5rbm93bjMucC4yMC5wbmciLCJhZGRyZXNzIjp7InBsYWNlX29mX3dvcnNoaXAiOiJTcmkgVmFyYXNpZGRoaSBWaW5heWFrYSBUZW1wbGUiLCJmb290d2F5IjoiQnV0dGVyZmx5IFdheSIsInN1YnVyYiI6IlNhcnZhZ25hIE5hZ2FyIiwiY2l0eV9kaXN0cmljdCI6IkVhc3QgWm9uZSIsImNpdHkiOiJCZW5nYWx1cnUiLCJjb3VudHkiOiJCYW5nYWxvcmUgVXJiYW4iLCJzdGF0ZV9kaXN0cmljdCI6IkJhbmdhbG9yZSBVcmJhbiIsInN0YXRlIjoiS2FybmF0YWthIiwicG9zdGNvZGUiOiI1NjAwODQiLCJjb3VudHJ5IjoiSW5kaWEiLCJjb3VudHJ5X2NvZGUiOiJpbiJ9fSx7InBsYWNlX2lkIjoxNjI3ODg1MDUsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6Ly9vc20ub3JnL2NvcHlyaWdodCIsIm9zbV90eXBlIjoid2F5Iiwib3NtX2lkIjozODE5NTQxMDMsImJvdW5kaW5nYm94IjpbIjEyLjk2OTMyOTciLCIxMi45Njk0MTczIiwiNzcuNjQ1NjQxMyIsIjc3LjY0NTcyODQiXSwibGF0IjoiMTIuOTY5MzczNSIsImxvbiI6Ijc3LjY0NTY4NDgyNTIwMTQiLCJkaXNwbGF5X25hbWUiOiJCaWx2YXBhdHJlIEJhbGFtdXJpIFZhcmFzaWRkaSBWaW5heWFrYSBTd2FtaSBEZXZhc3RoYW5hLCA4dGggQ3Jvc3MgUm9hZCwgSmVldmFuYmhpbWEgTmFnYXIsIEVhc3QgWm9uZSwgQmVuZ2FsdXJ1LCBCYW5nYWxvcmUgVXJiYW4sIEthcm5hdGFrYSwgNTYwMDA4LCBJbmRpYSIsImNsYXNzIjoiYW1lbml0eSIsInR5cGUiOiJwbGFjZV9vZl93b3JzaGlwIiwiaW1wb3J0YW5jZSI6MC41MzA5OTk5OTk5OTk5OTk5LCJpY29uIjoiaHR0cHM6Ly9ub21pbmF0aW0ub3BlbnN0cmVldG1hcC5vcmcvaW1hZ2VzL21hcGljb25zL3BsYWNlX29mX3dvcnNoaXBfdW5rbm93bjMucC4yMC5wbmciLCJhZGRyZXNzIjp7InBsYWNlX29mX3dvcnNoaXAiOiJCaWx2YXBhdHJlIEJhbGFtdXJpIFZhcmFzaWRkaSBWaW5heWFrYSBTd2FtaSBEZXZhc3RoYW5hIiwicm9hZCI6Ijh0aCBDcm9zcyBSb2FkIiwic3VidXJiIjoiSmVldmFuYmhpbWEgTmFnYXIiLCJjaXR5X2Rpc3RyaWN0IjoiRWFzdCBab25lIiwiY2l0eSI6IkJlbmdhbHVydSIsImNvdW50eSI6IkJhbmdhbG9yZSBVcmJhbiIsInN0YXRlX2Rpc3RyaWN0IjoiQmFuZ2Fsb3JlIFVyYmFuIiwic3RhdGUiOiJLYXJuYXRha2EiLCJwb3N0Y29kZSI6IjU2MDAwOCIsImNvdW50cnkiOiJJbmRpYSIsImNvdW50cnlfY29kZSI6ImluIn19LHsicGxhY2VfaWQiOjE1NTQ3NjA0NSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJ3YXkiLCJvc21faWQiOjM1MjU0MjI3NSwiYm91bmRpbmdib3giOlsiMTIuOTgxNDY3IiwiMTIuOTgxNTk5MSIsIjc3LjY0MzI3MDciLCI3Ny42NDMzNzQ2Il0sImxhdCI6IjEyLjk4MTUzMzA1IiwibG9uIjoiNzcuNjQzMzIyNjcwODAwMiIsImRpc3BsYXlfbmFtZSI6IlNyZWUgQmFsYW11cmkgVmluYXlha2EgVGVtcGxlLCA0OSwgMm5kIE1haW4gUm9hZCwgSHV0dGluZyBDb2xvbnksIEhveXNhbGEgTmFnYXJhLCBFYXN0IFpvbmUsIEJlbmdhbHVydSwgQmFuZ2Fsb3JlIFVyYmFuLCBLYXJuYXRha2EsIDU2MDAzOCwgSW5kaWEiLCJjbGFzcyI6ImFtZW5pdHkiLCJ0eXBlIjoicGxhY2Vfb2Zfd29yc2hpcCIsImltcG9ydGFuY2UiOjAuNTMwOTk5OTk5OTk5OTk5OSwiaWNvbiI6Imh0dHBzOi8vbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnL2ltYWdlcy9tYXBpY29ucy9wbGFjZV9vZl93b3JzaGlwX3Vua25vd24zLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJwbGFjZV9vZl93b3JzaGlwIjoiU3JlZSBCYWxhbXVyaSBWaW5heWFrYSBUZW1wbGUiLCJob3VzZV9udW1iZXIiOiI0OSIsInJvYWQiOiIybmQgTWFpbiBSb2FkIiwibmVpZ2hib3VyaG9vZCI6Ikh1dHRpbmcgQ29sb255Iiwic3VidXJiIjoiSG95c2FsYSBOYWdhcmEiLCJjaXR5X2Rpc3RyaWN0IjoiRWFzdCBab25lIiwiY2l0eSI6IkJlbmdhbHVydSIsImNvdW50eSI6IkJhbmdhbG9yZSBVcmJhbiIsInN0YXRlX2Rpc3RyaWN0IjoiQmFuZ2Fsb3JlIFVyYmFuIiwic3RhdGUiOiJLYXJuYXRha2EiLCJwb3N0Y29kZSI6IjU2MDAzOCIsImNvdW50cnkiOiJJbmRpYSIsImNvdW50cnlfY29kZSI6ImluIn19LHsicGxhY2VfaWQiOjU1MjI0ODY1LCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6Im5vZGUiLCJvc21faWQiOjQ0NDY4OTM2NjcsImJvdW5kaW5nYm94IjpbIjEyLjkzNzMyNDgiLCIxMi45Mzc0MjQ4IiwiNzcuNTQ5NDI3OCIsIjc3LjU0OTUyNzgiXSwibGF0IjoiMTIuOTM3Mzc0OCIsImxvbiI6Ijc3LjU0OTQ3NzgiLCJkaXNwbGF5X25hbWUiOiJWaW5heWFrYSBIb3NwaXRhbCwgSGFudW1hbnRoYSBOYWdhciwgMTEwLCA4MCBGZWV0IFJvYWQsIEdpcmluYWdhcmEsIFNvdXRoIFpvbmUsIEJlbmdhbHVydSwgQmFuZ2Fsb3JlIFVyYmFuLCBLYXJuYXRha2EsIDU2MDA1MCwgSW5kaWEiLCJjbGFzcyI6ImFtZW5pdHkiLCJ0eXBlIjoiaG9zcGl0YWwiLCJpbXBvcnRhbmNlIjowLjUzMDk5OTk5OTk5OTk5OTksImljb24iOiJodHRwczovL25vbWluYXRpbS5vcGVuc3RyZWV0bWFwLm9yZy9pbWFnZXMvbWFwaWNvbnMvaGVhbHRoX2hvc3BpdGFsLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJob3NwaXRhbCI6IlZpbmF5YWthIEhvc3BpdGFsLCBIYW51bWFudGhhIE5hZ2FyIiwiaG91c2VfbnVtYmVyIjoiMTEwIiwicm9hZCI6IjgwIEZlZXQgUm9hZCIsInN1YnVyYiI6IkdpcmluYWdhcmEiLCJjaXR5X2Rpc3RyaWN0IjoiU291dGggWm9uZSIsImNpdHkiOiJCZW5nYWx1cnUiLCJjb3VudHkiOiJCYW5nYWxvcmUgVXJiYW4iLCJzdGF0ZV9kaXN0cmljdCI6IkJhbmdhbG9yZSBVcmJhbiIsInN0YXRlIjoiS2FybmF0YWthIiwicG9zdGNvZGUiOiI1NjAwNTAiLCJjb3VudHJ5IjoiSW5kaWEiLCJjb3VudHJ5X2NvZGUiOiJpbiJ9fSx7InBsYWNlX2lkIjo1NDk3MjM3MywibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjo0Mzg2NTAwMTIxLCJib3VuZGluZ2JveCI6WyIxMy4wMjc2MzA1IiwiMTMuMDI3NzMwNSIsIjc3LjYwNDI5NDUiLCI3Ny42MDQzOTQ1Il0sImxhdCI6IjEzLjAyNzY4MDUiLCJsb24iOiI3Ny42MDQzNDQ1IiwiZGlzcGxheV9uYW1lIjoiU3JpIFZpbmF5YWthIEhvdCBDaGlwcywgU3VsdGhhbnBhbHlhIE1haW4gUm9hZCwgS2FuYWthIE5hZ2FyLCBWaXNod2FuYXRoIE5hZ2VuYWhhbGxpLCBFYXN0IFpvbmUsIEJlbmdhbHVydSwgQmFuZ2Fsb3JlIFVyYmFuLCBLYXJuYXRha2EsIDU2MDAzMiwgSW5kaWEiLCJjbGFzcyI6InNob3AiLCJ0eXBlIjoiY29udmVuaWVuY2UiLCJpbXBvcnRhbmNlIjowLjUzMDk5OTk5OTk5OTk5OTksImljb24iOiJodHRwczovL25vbWluYXRpbS5vcGVuc3RyZWV0bWFwLm9yZy9pbWFnZXMvbWFwaWNvbnMvc2hvcHBpbmdfY29udmVuaWVuY2UucC4yMC5wbmciLCJhZGRyZXNzIjp7ImNvbnZlbmllbmNlIjoiU3JpIFZpbmF5YWthIEhvdCBDaGlwcyIsInJvYWQiOiJTdWx0aGFucGFseWEgTWFpbiBSb2FkIiwibmVpZ2hib3VyaG9vZCI6IkthbmFrYSBOYWdhciIsInN1YnVyYiI6IlZpc2h3YW5hdGggTmFnZW5haGFsbGkiLCJjaXR5X2Rpc3RyaWN0IjoiRWFzdCBab25lIiwiY2l0eSI6IkJlbmdhbHVydSIsImNvdW50eSI6IkJhbmdhbG9yZSBVcmJhbiIsInN0YXRlX2Rpc3RyaWN0IjoiQmFuZ2Fsb3JlIFVyYmFuIiwic3RhdGUiOiJLYXJuYXRha2EiLCJwb3N0Y29kZSI6IjU2MDAzMiIsImNvdW50cnkiOiJJbmRpYSIsImNvdW50cnlfY29kZSI6ImluIn19LHsicGxhY2VfaWQiOjI1NDM3MDc4LCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6Im5vZGUiLCJvc21faWQiOjI0ODA4NjIzMjEsImJvdW5kaW5nYm94IjpbIjEyLjk5MzExMDciLCIxMi45OTMyMTA3IiwiNzcuNTM5NDI0OSIsIjc3LjUzOTUyNDkiXSwibGF0IjoiMTIuOTkzMTYwNyIsImxvbiI6Ijc3LjUzOTQ3NDkiLCJkaXNwbGF5X25hbWUiOiJTaHJlZSBWaW5heWFrYSBKdWljZSAmIENoYXQgQ2VudGVyLCAxMHRoIE1haW4gUm9hZCwgQmFzYXZlc2h3YXJhIE5hZ2FyIFdhcmQsIFdlc3QgWm9uZSwgQmVuZ2FsdXJ1LCBCYW5nYWxvcmUgVXJiYW4sIEthcm5hdGFrYSwgNzksIEluZGlhIiwiY2xhc3MiOiJhbWVuaXR5IiwidHlwZSI6ImZhc3RfZm9vZCIsImltcG9ydGFuY2UiOjAuNTMwOTk5OTk5OTk5OTk5OSwiaWNvbiI6Imh0dHBzOi8vbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnL2ltYWdlcy9tYXBpY29ucy9mb29kX2Zhc3Rmb29kLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJmYXN0X2Zvb2QiOiJTaHJlZSBWaW5heWFrYSBKdWljZSAmIENoYXQgQ2VudGVyIiwicm9hZCI6IjEwdGggTWFpbiBSb2FkIiwic3VidXJiIjoiQmFzYXZlc2h3YXJhIE5hZ2FyIFdhcmQiLCJjaXR5X2Rpc3RyaWN0IjoiV2VzdCBab25lIiwiY2l0eSI6IkJlbmdhbHVydSIsImNvdW50eSI6IkJhbmdhbG9yZSBVcmJhbiIsInN0YXRlX2Rpc3RyaWN0IjoiQmFuZ2Fsb3JlIFVyYmFuIiwic3RhdGUiOiJLYXJuYXRha2EiLCJwb3N0Y29kZSI6Ijc5IiwiY291bnRyeSI6IkluZGlhIiwiY291bnRyeV9jb2RlIjoiaW4ifX0seyJwbGFjZV9pZCI6Mjc5MzQwOTg0LCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6Im5vZGUiLCJvc21faWQiOjY0ODQ3MTg0MzIsImJvdW5kaW5nYm94IjpbIjEyLjk4MDgxNTgiLCIxMi45ODA5MTU4IiwiNzcuNjQ1OTY4NyIsIjc3LjY0NjA2ODciXSwibGF0IjoiMTIuOTgwODY1OCIsImxvbiI6Ijc3LjY0NjAxODciLCJkaXNwbGF5X25hbWUiOiJTaHJpIFZpbmF5YWthIEhvdCBDaGlwcywgMm5kIENyb3NzLCBIb3lzYWxhIE5hZ2FyYSwgRWFzdCBab25lLCBCZW5nYWx1cnUsIEJhbmdhbG9yZSBVcmJhbiwgS2FybmF0YWthLCA1NjAwMzgsIEluZGlhIiwiY2xhc3MiOiJhbWVuaXR5IiwidHlwZSI6ImZhc3RfZm9vZCIsImltcG9ydGFuY2UiOjAuNTMwOTk5OTk5OTk5OTk5OSwiaWNvbiI6Imh0dHBzOi8vbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnL2ltYWdlcy9tYXBpY29ucy9mb29kX2Zhc3Rmb29kLnAuMjAucG5nIiwiYWRkcmVzcyI6eyJmYXN0X2Zvb2QiOiJTaHJpIFZpbmF5YWthIEhvdCBDaGlwcyIsInJvYWQiOiIybmQgQ3Jvc3MiLCJzdWJ1cmIiOiJIb3lzYWxhIE5hZ2FyYSIsImNpdHlfZGlzdHJpY3QiOiJFYXN0IFpvbmUiLCJjaXR5IjoiQmVuZ2FsdXJ1IiwiY291bnR5IjoiQmFuZ2Fsb3JlIFVyYmFuIiwic3RhdGVfZGlzdHJpY3QiOiJCYW5nYWxvcmUgVXJiYW4iLCJzdGF0ZSI6Ikthcm5hdGFrYSIsInBvc3Rjb2RlIjoiNTYwMDM4IiwiY291bnRyeSI6IkluZGlhIiwiY291bnRyeV9jb2RlIjoiaW4ifX1d
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:53:01 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?accept-language=en&addressdetails=1&format=json&q=Vignan%20Nagar%20SA,%20Bengaluru,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 30 Nov 2019 14:53:01 GMT
+      Server:
+      - Apache/2.4.29 (Ubuntu)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=0, report-uri="https://openstreetmap.report-uri.com/r/d/ct/reportOnly"
+      Upgrade:
+      - h2
+      Connection:
+      - Upgrade, close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Sat, 30 Nov 2019 14:53:01 GMT
+recorded_with: VCR 5.0.0
