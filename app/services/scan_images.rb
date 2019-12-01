@@ -4,11 +4,11 @@ class ScanImages
   require 'open-uri'
 
   def run
-    @tweet_data = []
+    @tweet = []
     begin
       FetchTweets.new.run.each do |tweet|
         @url = tweet.url
-        next if TweetData.find_by(url: @url.to_s)
+        next if Tweet.find_by(url: @url.to_s)
 
         @tmp_file = Tempfile.new(@url)
         image_url = tweet.media.first.media_url
@@ -17,7 +17,7 @@ class ScanImages
         parse_and_set
         @tmp_file&.close
       end
-      TweetData.insert_all(@tweet_data) if @tweet_data.present?
+      Tweet.insert_all(@tweet) if @tweet.present?
     ensure
       File.unlink(@tmp_file) if @tmp_file
     end
@@ -28,10 +28,10 @@ class ScanImages
   def parse_and_set
     raw_data = RTesseract.new(@tmp_file.path).to_s
     Rails.logger.info("raw_text: #{raw_data}")
-    tweet_data = TweetData.create(url: @url, raw_data: raw_data)
+    tweet = Tweet.create(url: @url, raw_data: raw_data)
     parsed_data = BescomTweetParser.new.parse(raw_data)
 
-    tweet_data
+    tweet
       .update(restore_at: Time.zone.parse(parsed_data[:restore_at]),
               affected_areas: parsed_data[:affected_area].to_s.strip,
               created_at: Time.zone.now, updated_at: Time.zone.now)

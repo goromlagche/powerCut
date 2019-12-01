@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2019_11_24_050749) do
     t.index ["restore_at"], name: "index_locations_on_restore_at"
   end
 
-  create_table "tweet_data", force: :cascade do |t|
+  create_table "tweets", force: :cascade do |t|
     t.string "url", null: false
     t.string "affected_areas"
     t.datetime "restore_at"

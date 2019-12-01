@@ -4,7 +4,7 @@ class FetchLatLangJob < ApplicationJob
   queue_as :default
 
   def perform
-    tweets = TweetData.where(location_fetched: false)
+    tweets = Tweet.where(location_fetched: false)
     Rails.logger.info("Fetching location for #{tweets.count} tweets")
     tweets.each do |tweet|
       restore_at = tweet.restore_at
