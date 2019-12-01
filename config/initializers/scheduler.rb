@@ -3,7 +3,7 @@
 if Rails.env.production?
   require 'rufus-scheduler'
 
-  Rufus::Scheduler.singleton.every '5m' do
+  Rufus::Scheduler.singleton.every '1h' do
     Rails.logger.info('Running scheduler')
     ScanImages.new.run
     FetchLatLangJob.perform_later

@@ -4,25 +4,32 @@ class FetchTweets
   BESCOM_HANDLE = 'NammaBESCOM'
 
   def run
-    @count = 20
-    tweets = fetch
-    if need_another_fetch?(tweets: tweets)
-      @count *= 2
-      tweets.concat(fetch)
+    @tweet_count = 20
+    @page_count = 1
+    @last_tweet_url = Tweet.last&.url
+    @tweets = fetch
+
+    50.times do
+      break unless need_another_fetch?
+
+      @page_count += 1
+      @tweets.concat(fetch)
     end
-    tweets
+    @tweets
   end
 
-  def need_another_fetch?(tweets:)
-    last_tweet_url = Tweet.last&.url
-    tweets.select { |tweet| tweet.url.to_s == last_tweet_url }.blank?
+  private
+
+  def need_another_fetch?
+    @tweets.select { |tweet| tweet.url.to_s == @last_tweet_url }.blank?
   end
 
   def fetch
-    Rails.logger.info('Fetching tweets')
+    Rails.logger.info("Fetching tweets page => #{@page_count}")
     TweetApi
       .new
-      .client.user_timeline(BESCOM_HANDLE, count: @count)
+      .client
+      .user_timeline(BESCOM_HANDLE, page: @page_count, count: @tweet_count)
       .reject(&:reply?)
       .select(&:media?)
   end
