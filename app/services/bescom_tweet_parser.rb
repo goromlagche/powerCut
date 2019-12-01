@@ -1,10 +1,12 @@
+# frozen_string_literal: true
+
 require 'parslet'
 
 class BescomTweetParser < Parslet::Parser
   root(:bescom)
   rule(:restore_prefix) { str('@') }
   rule(:affected_areas_prefix) do
-    (str('areas') | str('Areas')) >> newline.maybe >>
+    (str('areas') | str('Areas') | str('Arcas')) >> newline.maybe >>
       colon.maybe >>
       newline.maybe
   end
@@ -18,9 +20,9 @@ class BescomTweetParser < Parslet::Parser
 
   rule(:affected_areas) do
     (affected_areas_prefix.absent? >> any).repeat >>
+      affected_areas_prefix >>
       space.maybe >>
       quote.maybe >>
-      affected_areas_prefix >>
       (dot.maybe >> newline.absent? >> any).repeat.as(:affected_area)
   end
 

@@ -12,9 +12,12 @@ gem 'sass-rails', '>= 6'
 gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 4.0'
 
+gem 'kaminari'
+
 gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'pg'
+gem 'pg_search'
 
 gem 'rtesseract'
 

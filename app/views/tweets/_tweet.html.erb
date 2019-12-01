@@ -1,15 +1,5 @@
-<div class="card">
-  <div class="card-content">
-    <div class="content">
-      <pre><%= tweet.raw_data %></pre>
-    </div>
-  </div>
-  <footer class="card-footer">
-    <p class="card-footer-item">
-      <span>
-        View on <%= link_to 'Twitter', tweet.url %>
-      </span>
-    </p>
-  </footer>
-</div>
-<hr>
+<tr>
+  <td><pre><%= raw(tweet.raw_data_text) %></pre></td>
+  <td><%= tweet.restore_at.to_formatted_s(:short) %></td>
+  <td><%= link_to 'Tweet', tweet.url %></td>
+</tr>

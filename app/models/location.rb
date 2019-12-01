@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Location < ApplicationRecord
   geocoded_by :full_address
   after_validation :geocode, if: :address_changed?
@@ -16,8 +18,10 @@ class Location < ApplicationRecord
 
   # living life on the edge
   def as_json(*)
-    super.slice('id', 'latitude', 'longitude', 'restore_at', 'address').tap do |hash|
-      hash['restore_at'] = Time.zone.parse(hash['restore_at']).to_formatted_s(:short)
+    super.slice('latitude', 'longitude',
+                'restore_at', 'address').tap do |hash|
+      hash['restore_at'] =
+        Time.zone.parse(hash['restore_at']).to_formatted_s(:short)
     end
   end
 end

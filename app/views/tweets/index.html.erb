@@ -1,0 +1,38 @@
+<section class="section">
+  <div class="container">
+    <h1 class="title">Tweets</h1>
+    <h2 class="subtitle">
+      from <i>@NammaBESCOM</i>
+    </h2>
+    <%= form_tag root_path, method: :get, class: 'field has-addons' do %>
+      <p class='control'>
+        <%= text_field_tag :q, params[:q], class: 'input', placeholder: 'Location' %>
+      </p>
+      <p class='control'>
+        <%= submit_tag 'Search', name: nil, class: 'button is-info' %>
+      </p>
+    <% end %>
+    <table class="table is-bordered">
+      <thead>
+        <tr>
+          <th>Text</th>
+          <th>Restore At</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <%= render partial: @tweets %>
+        </tr>
+      </tbody>
+    </table>
+    <div class="container">
+      <div class="columns is-centered">
+        <nav class="pagination">
+          <%= link_to_prev_page @tweets, '‹', class: 'pagination-previous' %>
+          <%= link_to_next_page @tweets, '›', class: 'pagination-next' %>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
