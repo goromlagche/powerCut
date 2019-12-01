@@ -7,6 +7,6 @@ class TweetsController < ApplicationController
       @tweets = @tweets.text_search(params[:q]).with_pg_search_highlight
     end
 
-    @tweets = @tweets.page(params[:page]).without_count
+    @tweets = @tweets.order(restore_at: :desc).page(params[:page]).without_count
   end
 end

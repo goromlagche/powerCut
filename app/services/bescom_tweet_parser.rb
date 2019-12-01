@@ -15,7 +15,7 @@ class BescomTweetParser < Parslet::Parser
     (restore_prefix.absent? >> any).repeat >>
       restore_prefix >>
       space.maybe >>
-      (hrs >> colon.maybe >> dot.maybe >> hrs).as(:restore_at)
+      (hrs >> colon.maybe >> dot.maybe >> hypen.maybe >> hrs).as(:restore_at)
   end
 
   rule(:affected_areas) do
@@ -34,6 +34,7 @@ class BescomTweetParser < Parslet::Parser
   rule(:colon) { str(':') }
   rule(:space) { str(' ') }
   rule(:dot) { str('.') }
+  rule(:hypen) { str('-') }
   rule(:quote) { str('"') }
   rule(:newline) { match["\n"].repeat(1) }
 end
