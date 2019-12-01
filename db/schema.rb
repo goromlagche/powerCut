@@ -12,7 +12,10 @@
 
 ActiveRecord::Schema.define(version: 2019_11_24_050749) do
 
-  create_table "locations", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "locations", force: :cascade do |t|
     t.datetime "restore_at"
     t.string "address", null: false
     t.string "latitude"
@@ -22,7 +25,7 @@ ActiveRecord::Schema.define(version: 2019_11_24_050749) do
     t.index ["restore_at"], name: "index_locations_on_restore_at"
   end
 
-  create_table "tweet_data", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+  create_table "tweets", force: :cascade do |t|
     t.string "url", null: false
     t.string "affected_areas"
     t.datetime "restore_at"

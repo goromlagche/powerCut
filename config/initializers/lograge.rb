@@ -4,4 +4,4 @@ Rails.application.configure do
 end
 
 # TODO: fix deprecation
-Rails.logger.formatter = CustomLogFormatter.new
+# Rails.logger.formatter = CustomLogFormatter.new

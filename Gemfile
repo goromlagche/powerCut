@@ -15,7 +15,7 @@ gem 'webpacker', '~> 4.0'
 
 gem 'bootsnap', '>= 1.4.2', require: false
 
-gem 'mysql2'
+gem 'pg'
 
 gem 'rtesseract'
 
@@ -27,11 +27,10 @@ gem 'sucker_punch'
 
 gem 'geocoder'
 
-gem 'rufus-scheduler'
-
 gem 'lograge'
 
 group :development, :test do
+  gem 'rufus-scheduler'
   gem 'rspec-rails'
   gem 'vcr'
   gem 'webmock', require: nil

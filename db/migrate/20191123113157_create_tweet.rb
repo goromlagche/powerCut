@@ -1,6 +1,6 @@
-class CreateTweetData < ActiveRecord::Migration[6.0]
+class CreateTweet < ActiveRecord::Migration[6.0]
   def change
-    create_table :tweet_data do |t|
+    create_table :tweets do |t|
       t.string :url, null: false, unique: true
       t.string :affected_areas
       t.datetime :restore_at
