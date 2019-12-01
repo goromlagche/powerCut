@@ -5,7 +5,8 @@ if Rails.env.production?
 
   Rufus::Scheduler.singleton.every '10m' do
     Rails.logger.info('Running scheduler')
-    ScanImages.new.run
-    FetchLatLangJob.perform_later
+    BatchScanService.run
   end
 end
+
+BatchScanService.run
