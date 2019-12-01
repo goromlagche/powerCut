@@ -8,6 +8,10 @@ class FetchLatLangJob < ApplicationJob
     Rails.logger.info("Fetching location for #{tweets.count} tweets")
     tweets.each do |tweet|
       restore_at = tweet.restore_at
+      if tweet.affected_areas.blank?
+        tweet.update(location_fetched: true)
+        next
+      end
       locations = LocationParser.parse(affected_areas: tweet.affected_areas)
       Rails.logger.info('Location Parser Result '\
                         + { affected_areas: tweet.affected_areas,
