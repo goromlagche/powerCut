@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CustomLogFormatter < ActiveSupport::Logger::SimpleFormatter
   include ActiveSupport::TaggedLogging::Formatter
 

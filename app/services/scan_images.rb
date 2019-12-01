@@ -35,10 +35,6 @@ class ScanImages
       .update(restore_at: Time.zone.parse(parsed_data[:restore_at]),
               affected_areas: parsed_data[:affected_area].to_s.strip,
               created_at: Time.zone.now, updated_at: Time.zone.now)
-
-    unless parsed_data[:affected_area]
-      Rails.logger.error "Affected Area Parsing failed => #{raw_data}"
-    end
   rescue Parslet::ParseFailed => e
     Rails.logger.error "Parsing failed => #{raw_data}"
     Rails.logger.error "Exception #{e.message}"
