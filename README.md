@@ -1,24 +1,5 @@
-# README
+# Power Cut
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Power cut stat in bangalore, Tweets from *@NammaBESCOM*.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[DEMO](https://intense-castle-44354.herokuapp.com/)
