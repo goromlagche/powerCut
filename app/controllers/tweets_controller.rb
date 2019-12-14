@@ -2,11 +2,11 @@
 
 class TweetsController < ApplicationController
   def index
-    @tweets = Tweet.where(restore_at: 24.hours.ago..)
+    @tweets = Tweet.where(created_at: 24.hours.ago..)
     if params[:q].present?
       @tweets = @tweets.text_search(params[:q]).with_pg_search_highlight
     end
 
-    @tweets = @tweets.order(restore_at: :desc).page(params[:page]).without_count
+    @tweets = @tweets.order(created_at: :desc).page(params[:page]).without_count
   end
 end
