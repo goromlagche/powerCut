@@ -31,11 +31,9 @@ class CustomLogFormatter < ActiveSupport::Logger::SimpleFormatter
   end
 
   def location
+    return nil if current_tags.second.blank?
+
     add = Geocoder.search(current_tags.second).first
-    if add.present?
-      [add.city, add.region, add.country].compact.join(', ')
-    else
-      nil
-    end
+    [add.city, add.region, add.country].compact.join(', ') if add.present?
   end
 end

@@ -5,4 +5,4 @@ Rails.application.configure do
   config.log_tags = %i[request_id remote_ip]
 end
 
-Rails.logger.formatter = CustomLogFormatter.new
+# Rails.logger.formatter = CustomLogFormatter.new
