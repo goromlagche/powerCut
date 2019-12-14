@@ -27,7 +27,9 @@ class ScanImagesJob < ApplicationJob
   def parse_and_set
     raw_data = RTesseract.new(@tmp_file.path).to_s
     Rails.logger.info("raw_text: #{raw_data}")
-    tweet = Tweet.create(url: @url, raw_data: raw_data)
+    tweet = Tweet.create(url: @url,
+                         raw_data: raw_data,
+                         created_at: @tweeted_at)
     parsed_data = BescomTweetParser.new.parse(raw_data)
 
     if parsed_data[:restore_at].present?
@@ -35,11 +37,7 @@ class ScanImagesJob < ApplicationJob
                         restore_at: parsed_data[:restore_at])
     end
 
-    ActiveRecord::Base.record_timestamps = false
-    tweet
-      .update(affected_areas: parsed_data[:affected_area].to_s.strip,
-              created_at: @tweeted_at, updated_at: Time.zone.now)
-    ActiveRecord::Base.record_timestamps = true
+    tweet.update(affected_areas: parsed_data[:affected_area].to_s.strip)
 
     FetchLatLangJob.perform_later(tweet: tweet) if
       parsed_data[:affected_area].present?

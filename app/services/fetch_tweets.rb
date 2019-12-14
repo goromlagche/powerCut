@@ -9,7 +9,7 @@ class FetchTweets
     @last_tweet_url = Tweet.last&.url
     @tweets = fetch
 
-    50.times do
+    20.times do
       break unless need_another_fetch?
 
       sleep 1
