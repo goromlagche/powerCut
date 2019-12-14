@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_12_14_122048) do
+ActiveRecord::Schema.define(version: 2019_12_14_132432) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "citext"
@@ -31,7 +31,6 @@ ActiveRecord::Schema.define(version: 2019_12_14_122048) do
     t.string "affected_areas"
     t.datetime "restore_at"
     t.text "raw_data"
-    t.boolean "location_fetched", default: false, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index "to_tsvector('english'::regconfig, raw_data)", name: "articles_name", using: :gin

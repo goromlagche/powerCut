@@ -5,6 +5,6 @@ if Rails.env.production?
 
   Rufus::Scheduler.singleton.every '10m' do
     Rails.logger.info('Running scheduler')
-    BatchScanService.run
+    FetchTweetsJob.perform_later
   end
 end

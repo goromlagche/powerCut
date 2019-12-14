@@ -12,6 +12,7 @@ class FetchTweets
     50.times do
       break unless need_another_fetch?
 
+      sleep 1
       @page_count += 1
       @tweets.concat(fetch)
     end
