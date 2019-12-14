@@ -30,13 +30,9 @@ class ScanImagesJob < ApplicationJob
     tweet = Tweet.create(url: @url, raw_data: raw_data)
     parsed_data = BescomTweetParser.new.parse(raw_data)
 
-    restore_at = begin
-                   Time.zone.parse(parsed_data[:restore_at])
-                 rescue ArgumentError
-                   nil
-                 end
-    if restore_at.present?
-      tweet.restore_at = Time.zone.parse(@tweeted_at.to_date.to_s, restore_at)
+    if parsed_data[:restore_at].present?
+      handle_restore_at(tweet: tweet,
+                        restore_at: parsed_data[:restore_at])
     end
 
     tweet
@@ -47,6 +43,13 @@ class ScanImagesJob < ApplicationJob
       parsed_data[:affected_area].present?
   rescue Parslet::ParseFailed => e
     Rails.logger.error "Parsing failed => #{raw_data}"
+    Rails.logger.error "Exception #{e.message}"
+  end
+
+  def handle_restore_at(tweet:, restore_at:)
+    tweet.restore_at =
+      Time.zone.parse(@tweeted_at.to_date.to_s, Time.zone.parse(restore_at))
+  rescue ArgumentError => e
     Rails.logger.error "Exception #{e.message}"
   end
 end
