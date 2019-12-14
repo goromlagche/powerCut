@@ -8,6 +8,7 @@ class ScanImages
     begin
       FetchTweets.new.run.each do |tweet|
         @url = tweet.url
+        @tweeted_at = tweet.created_at.in_time_zone
         next if Tweet.find_by(url: @url.to_s)
 
         @tmp_file = Tempfile.new(@url)
@@ -31,10 +32,14 @@ class ScanImages
     tweet = Tweet.create(url: @url, raw_data: raw_data)
     parsed_data = BescomTweetParser.new.parse(raw_data)
 
+    restore_at = Time.zone.parse(parsed_data[:restore_at])
+    if restore_at.present?
+      tweet.restore_at = Time.zone.parse(@tweeted_at.to_date.to_s, restore_at)
+    end
+
     tweet
-      .update(restore_at: Time.zone.parse(parsed_data[:restore_at]),
-              affected_areas: parsed_data[:affected_area].to_s.strip,
-              created_at: Time.zone.now, updated_at: Time.zone.now)
+      .update(affected_areas: parsed_data[:affected_area].to_s.strip,
+              created_at: @tweeted_at, updated_at: Time.zone.now)
   rescue Parslet::ParseFailed => e
     Rails.logger.error "Parsing failed => #{raw_data}"
     Rails.logger.error "Exception #{e.message}"
