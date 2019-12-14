@@ -47,8 +47,7 @@ class ScanImagesJob < ApplicationJob
   end
 
   def handle_restore_at(tweet:, restore_at:)
-    tweet.restore_at =
-      Time.zone.parse(Time.zone.parse(restore_at), @tweeted_at.to_date)
+    tweet.restore_at = Time.zone.parse(restore_at.to_s, @tweeted_at.to_date)
   rescue ArgumentError => e
     Rails.logger.error "Exception #{e.message}"
   end
