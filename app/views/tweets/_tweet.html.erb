@@ -1,5 +1,5 @@
 <tr>
   <td><pre><%= raw(tweet.raw_data_text) %></pre></td>
-  <td><%= tweet.restore_at.to_formatted_s(:short) %></td>
+  <td><%= tweet.restore_at&.to_formatted_s(:short) %></td>
   <td><%= link_to 'Tweet', tweet.url %></td>
 </tr>
