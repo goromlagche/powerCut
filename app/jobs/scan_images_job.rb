@@ -35,9 +35,11 @@ class ScanImagesJob < ApplicationJob
                         restore_at: parsed_data[:restore_at])
     end
 
+    ActiveRecord::Base.record_timestamps = false
     tweet
       .update(affected_areas: parsed_data[:affected_area].to_s.strip,
               created_at: @tweeted_at, updated_at: Time.zone.now)
+    ActiveRecord::Base.record_timestamps = true
 
     FetchLatLangJob.perform_later(tweet: tweet) if
       parsed_data[:affected_area].present?
