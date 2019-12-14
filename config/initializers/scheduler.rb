@@ -8,5 +8,3 @@ if Rails.env.production?
     BatchScanService.run
   end
 end
-
-BatchScanService.run
