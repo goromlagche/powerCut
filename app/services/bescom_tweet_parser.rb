@@ -4,7 +4,7 @@ require 'parslet'
 
 class BescomTweetParser < Parslet::Parser
   root(:bescom)
-  rule(:restore_prefix) { str('@') }
+  rule(:restore_prefix) { str('@') |  str('restored at') }
   rule(:affected_areas_prefix) do
     (str('areas') | str('Areas') | str('Arcas')) >> newline.maybe >>
       colon.maybe >>
