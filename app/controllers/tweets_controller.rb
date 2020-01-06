@@ -2,7 +2,7 @@
 
 class TweetsController < ApplicationController
   def index
-    @tweets = Tweet.where(created_at: 24.hours.ago..)
+    @tweets = Tweet.where(created_at: 3.days.ago..)
     if params[:q].present?
       @tweets = @tweets.text_search(params[:q]).with_pg_search_highlight
     end
