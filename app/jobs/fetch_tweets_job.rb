@@ -8,6 +8,7 @@ class FetchTweetsJob < ApplicationJob
     all_tweets.each_slice(4) do |tweets|
       ScanImagesJob.perform_later(tweets: tweet_data(tweets: tweets))
     end
+    Tweet.where("updated_at < ?", 7.days.ago).delete_all
   end
 
   private
